@@ -1,20 +1,65 @@
-// A.MaleckiLAB4.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
+using namespace std;
 
-#include <iostream>
+//Zad.0
 
-int main()
-{
-    std::cout << "Hello World!\n";
+/*int dodawanie(int a, int b); //funkcja (zwracajaca wynik typu int)
+void wyswietlanie(int a, int b); //funkcja bedaca procedura :)
+
+int zmiennaGlobalna = 10; //ustawienie zmiennej globalnej na 10
+
+int main() { //kod 04_05
+	int a = 45, b = 25;	//ustawienie zmiennych a i b
+	int suma = dodawanie(a, b); //wywolanie funkcji dodawanie i przypisanie wyniku do zmiennej suma
+	cout << "Jesli dodam " << a << " do " << b << " to otrzymam " << suma << endl;
+	a += 4;	//zwiekszenie wartosci a o 4
+	wyswietlanie(a, b);	//wywolanie procedury wyswietlanie
+	cout << "Zmienna globalna: " << zmiennaGlobalna << endl;
+	cout << "Wartosci a oraz b: " << a << " i " << b << endl;	//funkcja wyswietlanie nie zmienia wartosci a i b w mainie, ponieważ są one zmiennymi lokalnymi i ta funkcja nie miała return aby je zmienić
+	return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+int dodawanie(int c, int b) {
+	b = c + b;
+	return b;	//b się nie zmienia ponieważ c jest niezdefiniowana
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+void wyswietlanie(int a, int b) {
+	cout << "Wynik procedury / funkcji z void: " << a + b << endl; //wyswietlenie wyniku gdzie a jest zwiększone o 4
+	zmiennaGlobalna = 20; //zmienia zminną globalną na 20
+	a = 111;
+	b = 222;
+}*/
+
+	//Zad.1
+
+	/*void przywitaj(string imie);
+		int main() {
+		przywitaj("Adam");
+	return 0;
+	}
+
+	void przywitaj(string imie) {
+		cout << "Cesc, " << imie << endl;
+	}*/
+
+	//Zad.2
+
+	/*void tabliczka();
+	int main() {
+		cout << "Tambliczka monozenia:\n";
+		tabliczka();
+		return 0;
+	}
+	void tabliczka() {
+		for (int i = 1; i <= 10; i++) {
+			for (int j = 1; j <= 10; j++) {
+				cout << i * j << "\t";
+			}
+			cout << "\n";
+		}
+	}*/
+
+//Zad.3
+
+int nierówność(int a, int b)
